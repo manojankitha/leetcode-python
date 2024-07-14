@@ -15,7 +15,9 @@ class Solution:
             else:
                 map[nums[i]]=1
         return False
-       
+
+# TC: O(n) for traversing the array of length n
+# SC: O(n) for the map and nums of length n      
         
 # @lc code=end
 
